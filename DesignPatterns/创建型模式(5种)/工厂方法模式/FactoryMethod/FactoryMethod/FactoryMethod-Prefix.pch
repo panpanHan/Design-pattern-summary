@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'FactoryMethod' target in the 'FactoryMethod' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+#endif
