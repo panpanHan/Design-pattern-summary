@@ -15,6 +15,7 @@
 		D435C9D72140D2780014BE53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D435C9D62140D2780014BE53 /* main.m */; };
 		D435C9E42140D3680014BE53 /* FactoryMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = D435C9E32140D3680014BE53 /* FactoryMethod.m */; };
 		D468BC0821AC196C00954C38 /* SingletonPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = D468BC0721AC196C00954C38 /* SingletonPattern.m */; };
+		D468BC0C21AC33A300954C38 /* PrototypePattern.m in Sources */ = {isa = PBXBuildFile; fileRef = D468BC0B21AC33A300954C38 /* PrototypePattern.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		D435C9E32140D3680014BE53 /* FactoryMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactoryMethod.m; sourceTree = "<group>"; };
 		D468BC0621AC196C00954C38 /* SingletonPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingletonPattern.h; sourceTree = "<group>"; };
 		D468BC0721AC196C00954C38 /* SingletonPattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingletonPattern.m; sourceTree = "<group>"; };
+		D468BC0A21AC33A300954C38 /* PrototypePattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrototypePattern.h; sourceTree = "<group>"; };
+		D468BC0B21AC33A300954C38 /* PrototypePattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrototypePattern.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +87,7 @@
 		D435C9DD2140D28F0014BE53 /* 创建型模式(5种) */ = {
 			isa = PBXGroup;
 			children = (
+				D468BC0921AC338900954C38 /* 原型模式 */,
 				D468BC0521AC193100954C38 /* 单例模式 */,
 				D435C9E12140D2EC0014BE53 /* 工厂方法模式 */,
 			);
@@ -127,6 +131,15 @@
 				D468BC0721AC196C00954C38 /* SingletonPattern.m */,
 			);
 			path = "单例模式";
+			sourceTree = "<group>";
+		};
+		D468BC0921AC338900954C38 /* 原型模式 */ = {
+			isa = PBXGroup;
+			children = (
+				D468BC0A21AC33A300954C38 /* PrototypePattern.h */,
+				D468BC0B21AC33A300954C38 /* PrototypePattern.m */,
+			);
+			path = "原型模式";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -202,6 +215,7 @@
 				D468BC0821AC196C00954C38 /* SingletonPattern.m in Sources */,
 				D435C9CC2140D2770014BE53 /* ViewController.m in Sources */,
 				D435C9D72140D2780014BE53 /* main.m in Sources */,
+				D468BC0C21AC33A300954C38 /* PrototypePattern.m in Sources */,
 				D435C9C92140D2770014BE53 /* AppDelegate.m in Sources */,
 				D435C9E42140D3680014BE53 /* FactoryMethod.m in Sources */,
 			);
