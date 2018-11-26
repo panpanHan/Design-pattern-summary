@@ -14,6 +14,7 @@
 		D435C9D42140D2780014BE53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D435C9D22140D2780014BE53 /* LaunchScreen.storyboard */; };
 		D435C9D72140D2780014BE53 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D435C9D62140D2780014BE53 /* main.m */; };
 		D435C9E42140D3680014BE53 /* FactoryMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = D435C9E32140D3680014BE53 /* FactoryMethod.m */; };
+		D468BC0821AC196C00954C38 /* SingletonPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = D468BC0721AC196C00954C38 /* SingletonPattern.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		D435C9D62140D2780014BE53 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D435C9E22140D3680014BE53 /* FactoryMethod.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FactoryMethod.h; sourceTree = "<group>"; };
 		D435C9E32140D3680014BE53 /* FactoryMethod.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FactoryMethod.m; sourceTree = "<group>"; };
+		D468BC0621AC196C00954C38 /* SingletonPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingletonPattern.h; sourceTree = "<group>"; };
+		D468BC0721AC196C00954C38 /* SingletonPattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingletonPattern.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,7 @@
 		D435C9DD2140D28F0014BE53 /* 创建型模式(5种) */ = {
 			isa = PBXGroup;
 			children = (
+				D468BC0521AC193100954C38 /* 单例模式 */,
 				D435C9E12140D2EC0014BE53 /* 工厂方法模式 */,
 			);
 			path = "创建型模式(5种)";
@@ -114,6 +118,15 @@
 				D435C9E32140D3680014BE53 /* FactoryMethod.m */,
 			);
 			path = "工厂方法模式";
+			sourceTree = "<group>";
+		};
+		D468BC0521AC193100954C38 /* 单例模式 */ = {
+			isa = PBXGroup;
+			children = (
+				D468BC0621AC196C00954C38 /* SingletonPattern.h */,
+				D468BC0721AC196C00954C38 /* SingletonPattern.m */,
+			);
+			path = "单例模式";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -186,6 +199,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D468BC0821AC196C00954C38 /* SingletonPattern.m in Sources */,
 				D435C9CC2140D2770014BE53 /* ViewController.m in Sources */,
 				D435C9D72140D2780014BE53 /* main.m in Sources */,
 				D435C9C92140D2770014BE53 /* AppDelegate.m in Sources */,
