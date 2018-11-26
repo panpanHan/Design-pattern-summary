@@ -16,6 +16,8 @@
 		D435C9E42140D3680014BE53 /* FactoryMethod.m in Sources */ = {isa = PBXBuildFile; fileRef = D435C9E32140D3680014BE53 /* FactoryMethod.m */; };
 		D468BC0821AC196C00954C38 /* SingletonPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = D468BC0721AC196C00954C38 /* SingletonPattern.m */; };
 		D468BC0C21AC33A300954C38 /* PrototypePattern.m in Sources */ = {isa = PBXBuildFile; fileRef = D468BC0B21AC33A300954C38 /* PrototypePattern.m */; };
+		D468BC1021AC447E00954C38 /* BuilderPattern.m in Sources */ = {isa = PBXBuildFile; fileRef = D468BC0F21AC447E00954C38 /* BuilderPattern.m */; };
+		D468BC1421AC48FD00954C38 /* AbstractFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D468BC1321AC48FD00954C38 /* AbstractFactory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +37,10 @@
 		D468BC0721AC196C00954C38 /* SingletonPattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingletonPattern.m; sourceTree = "<group>"; };
 		D468BC0A21AC33A300954C38 /* PrototypePattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrototypePattern.h; sourceTree = "<group>"; };
 		D468BC0B21AC33A300954C38 /* PrototypePattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrototypePattern.m; sourceTree = "<group>"; };
+		D468BC0E21AC447E00954C38 /* BuilderPattern.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BuilderPattern.h; sourceTree = "<group>"; };
+		D468BC0F21AC447E00954C38 /* BuilderPattern.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BuilderPattern.m; sourceTree = "<group>"; };
+		D468BC1221AC48FD00954C38 /* AbstractFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AbstractFactory.h; sourceTree = "<group>"; };
+		D468BC1321AC48FD00954C38 /* AbstractFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AbstractFactory.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +93,8 @@
 		D435C9DD2140D28F0014BE53 /* 创建型模式(5种) */ = {
 			isa = PBXGroup;
 			children = (
+				D468BC1121AC48D200954C38 /* 抽象工厂模式 */,
+				D468BC0D21AC445D00954C38 /* 建造者模式 */,
 				D468BC0921AC338900954C38 /* 原型模式 */,
 				D468BC0521AC193100954C38 /* 单例模式 */,
 				D435C9E12140D2EC0014BE53 /* 工厂方法模式 */,
@@ -140,6 +148,24 @@
 				D468BC0B21AC33A300954C38 /* PrototypePattern.m */,
 			);
 			path = "原型模式";
+			sourceTree = "<group>";
+		};
+		D468BC0D21AC445D00954C38 /* 建造者模式 */ = {
+			isa = PBXGroup;
+			children = (
+				D468BC0E21AC447E00954C38 /* BuilderPattern.h */,
+				D468BC0F21AC447E00954C38 /* BuilderPattern.m */,
+			);
+			path = "建造者模式";
+			sourceTree = "<group>";
+		};
+		D468BC1121AC48D200954C38 /* 抽象工厂模式 */ = {
+			isa = PBXGroup;
+			children = (
+				D468BC1221AC48FD00954C38 /* AbstractFactory.h */,
+				D468BC1321AC48FD00954C38 /* AbstractFactory.m */,
+			);
+			path = "抽象工厂模式";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,7 +238,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D468BC1421AC48FD00954C38 /* AbstractFactory.m in Sources */,
 				D468BC0821AC196C00954C38 /* SingletonPattern.m in Sources */,
+				D468BC1021AC447E00954C38 /* BuilderPattern.m in Sources */,
 				D435C9CC2140D2770014BE53 /* ViewController.m in Sources */,
 				D435C9D72140D2780014BE53 /* main.m in Sources */,
 				D468BC0C21AC33A300954C38 /* PrototypePattern.m in Sources */,
